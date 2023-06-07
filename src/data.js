@@ -952,7 +952,7 @@ const data2 =
 const Showdata = () => {
     const displayData = () => {
 
-        // first one
+        // first one completed
         const fetchData = data.ProjectID.reduce(
             (each, project) => {
                 const { IssueID, PullRequestID } = project;
