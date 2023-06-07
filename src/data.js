@@ -987,7 +987,7 @@ const Showdata = () => {
         );
 
         console.log(fetchData);
-        // second one //
+        // second one completed //
         const secondData = {};
 
         data2.ProjectID.forEach(project => {
