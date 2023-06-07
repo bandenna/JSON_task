@@ -951,6 +951,8 @@ const data2 =
 
 const Showdata = () => {
     const displayData = () => {
+
+        // first one
         const fetchData = data.ProjectID.reduce(
             (each, project) => {
                 const { IssueID, PullRequestID } = project;
